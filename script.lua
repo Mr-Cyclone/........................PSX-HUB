@@ -34,8 +34,9 @@ Tab:AddButton({
 	Name = "ON",
 	Callback = function()
       		print("Click here!")
-  	end    
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyx/VestyHub/main/PetChangers.lua"))()
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyx/VestyHub/main/PetChangers.lua"))()
+		end    
+
 })
 
 
@@ -47,6 +48,6 @@ Tab:AddButton({
 	Name = "ON",
 	Callback = function()
       		print("Click here!")
-  	end    
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyx/VestyHub/main/PetChangersBasic.lua"))()
+  	loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyx/VestyHub/main/PetChangersBasic.lua"))()
+		end    
 })
