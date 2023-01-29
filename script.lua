@@ -77,7 +77,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddBind({
 	Name = "Keybind",
-	Default = Enum.KeyCode.Shift,
+	Default = Enum.KeyCode.G,
 	Hold = false,
 	Callback = function()
 		print("Press here!")
