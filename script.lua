@@ -35,7 +35,9 @@ Tab:AddButton({
 	Callback = function()
       		print("Click here!")
   	end    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyx/VestyHub/main/PetChangers.lua"))()
 })
+
 
 local Section = Tab:AddSection({
 	Name = "PetChangerID V2"
@@ -46,4 +48,5 @@ Tab:AddButton({
 	Callback = function()
       		print("Click here!")
   	end    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyx/VestyHub/main/PetChangersBasic.lua"))()
 })
