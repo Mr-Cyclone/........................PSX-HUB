@@ -51,3 +51,35 @@ Tab:AddButton({
   	loadstring(game:HttpGet("https://raw.githubusercontent.com/vestyx/VestyHub/main/PetChangersBasic.lua"))()
 		end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "Trade Scam",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Trade Scam"
+})
+
+Tab:AddButton({
+	Name = "ON",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Close",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddBind({
+	Name = "E",
+	Default = Enum.KeyCode.E,
+	Hold = false,
+	Callback = function()
+		print("press")
+	end    
+})
