@@ -65,7 +65,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "ON",
 	Callback = function()
-      		print("button pressed")
+      		print("Click here!")
   	end    
 })
 
@@ -76,10 +76,11 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddBind({
-	Name = "E",
-	Default = Enum.KeyCode.E,
+	Name = "Keybind",
+	Default = Enum.KeyCode.Shift,
 	Hold = false,
 	Callback = function()
-		print("press")
+		print("Press here!")
+	OrionLib:Destroy()
 	end    
 })
