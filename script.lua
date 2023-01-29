@@ -84,3 +84,7 @@ Tab:AddBind({
 	OrionLib:Destroy()
 	end    
 })
+
+-- FINAL --
+
+OrionLib:Init()
